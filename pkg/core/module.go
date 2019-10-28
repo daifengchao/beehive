@@ -5,8 +5,8 @@ import (
 
 	"k8s.io/klog"
 
-	"github.com/kubeedge/beehive/pkg/common/config"
-	"github.com/kubeedge/beehive/pkg/core/context"
+	"github.com/jwzl/beehive/pkg/common/config"
+	"github.com/jwzl/beehive/pkg/core/context"
 )
 
 const (

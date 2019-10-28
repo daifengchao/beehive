@@ -10,8 +10,8 @@ import (
 
 	archaius "github.com/go-chassis/go-archaius"
 
-	"github.com/kubeedge/beehive/pkg/common/config"
-	"github.com/kubeedge/beehive/pkg/common/util"
+	"github.com/jwzl/beehive/pkg/common/config"
+	"github.com/jwzl/beehive/pkg/common/util"
 )
 
 func TestInitializeConfig(t *testing.T) {

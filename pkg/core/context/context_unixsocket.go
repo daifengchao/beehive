@@ -2,9 +2,6 @@ package context
 
 import (
 	"sync"
-	"time"
-
-	"github.com/kubeedge/beehive/pkg/core/model"
 )
 
 // UnixSocketContext unixsocket struct
@@ -52,20 +49,4 @@ func (ctx *UnixSocketContext) Send(module string, content interface{}) {
 //local module name
 func (ctx *UnixSocketContext) Receive(module string) interface{} {
 	return nil
-}
-
-// SendSync sends message in sync mode
-// module: the destination of the message
-func (ctx *UnixSocketContext) SendSync(module string, message model.Message, timeout time.Duration) (interface{}, error) {
-	return nil, nil
-}
-
-// SendResp sends response
-func (ctx *UnixSocketContext) SendResp(messageID string, content interface{}) {
-
-}
-
-// Send2Group broadcasts the message to all of group members
-func (ctx *UnixSocketContext) Send2Group(moduleType string, content interface{}) {
-
 }

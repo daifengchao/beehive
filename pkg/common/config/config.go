@@ -16,7 +16,7 @@ import (
 	yaml "gopkg.in/yaml.v2"
 	"k8s.io/klog"
 
-	"github.com/kubeedge/beehive/pkg/common/util"
+	"github.com/jwzl/beehive/pkg/common/util"
 )
 
 //constants to define config paths
